@@ -92,7 +92,7 @@ def atualizar_github():
     rodar("git add index.html gerar_html.py atualiza_git.py .gitignore")
     mensagem = f'Atualização automática {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}'
     rodar(f'git commit -m \"{mensagem}\"')
-    rodar("git push origin master")
+    rodar("git push origin main")
 
 # -------------------------------
 # EXECUÇÃO PRINCIPAL
